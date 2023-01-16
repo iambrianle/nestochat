@@ -1,0 +1,14 @@
+[debug] [2023-01-16T03:40:09.198Z] ----------------------------------------------------------------------
+[debug] [2023-01-16T03:40:09.204Z] Command:       E:\AppData\Nodejs\node.exe C:\Users\minh2\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-01-16T03:40:09.206Z] CLI Version:   11.20.0
+[debug] [2023-01-16T03:40:09.206Z] Platform:      win32
+[debug] [2023-01-16T03:40:09.207Z] Node Version:  v18.13.0
+[debug] [2023-01-16T03:40:09.209Z] Time:          Mon Jan 16 2023 11:40:09 GMT+0800 (Australian Western Standard Time)
+[debug] [2023-01-16T03:40:09.210Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-16T03:40:09.604Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-16T03:40:09.606Z] > authorizing via signed-in user (brianle.australia@gmail.com)
+[debug] [2023-01-16T03:40:09.606Z] [iam] checking project nestochat for permissions ["firebase.projects.get"]
+[debug] [2023-01-16T03:40:09.612Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nestochat:testIamPermissions [none]
+[debug] [2023-01-16T03:40:09.613Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nestochat:testIamPermissions x-goog-quota-user=projects/nestochat
+[debug] [2023-01-16T03:40:09.613Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nestochat:testIamPermissions {"permissions":["firebase.projects.get"]}
